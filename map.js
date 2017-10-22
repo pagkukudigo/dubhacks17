@@ -16,7 +16,10 @@ function GetMap() {
         	title: "Current Location"
         });
         map.entities.push(pin);
-
+				currWaypoint = new Microsoft.Maps.Directions.Waypoint({location: currLoc});
+				//dirManager.addWaypoint(new Microsoft.Maps.Directions.Waypoint({location: currLoc}))
+				dirManager.addWaypoint(currWaypoint);
+				console.log(currWaypoint);
         //Center the map on the user's location.
         map.setView({ center: currLoc, zoom: 12 });
     });
@@ -31,9 +34,7 @@ function GetMap() {
 		dirManager.setRequestOptions({
 			routeDraggable: false
 		});
-		currWaypoint = new Microsoft.Maps.Directions.Waypoint({location: currLoc});
-		//dirManager.addWaypoint(new Microsoft.Maps.Directions.Waypoint({location: currLoc}))
-		dirManager.addWaypoint(currWaypoint);
+
 	    /*Microsoft.Maps.Events.addHandler(directionsManager, "directionsUpdated", function () {
 	    	clearMap();
     	});
