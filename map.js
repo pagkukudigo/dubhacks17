@@ -10,9 +10,4 @@
     		dirManager.setRenderOptions({ itineraryContainer: document.getElementById('printoutPanel') });
     		dirManager.showInputPanel('directionsInputContainer');
 		});
-
-		Microsoft.Maps.loadModule('Microsoft.Maps.Traffic', function () {
-		    var manager = new Microsoft.Maps.Traffic.TrafficManager(map);
-		    manager.show();
-		});
 	}
