@@ -5,14 +5,16 @@ body {
 
 .locText {
 	font-weight: bold;
+ 	font-family: "Lato";
+ 	font-size: 25px;
 }
 
 .mapElements {
-	display: inline-block;
+ 	display: inline-block;
 }
 
 #mapContainer > * {
-	vertical-align: top;
+ 	vertical-align: top;
 }
 
 #header {
@@ -49,4 +51,54 @@ body {
 
 #spanningButton {
 	text-align: center;
+	background-color: yellowgreen;
+	color: white;
+	font-family: "Arial";
+	font-size: 20px;
+	width: 150%;
+	height: 50px;
+	padding: 10px 20px 10px 20px;
+	margin: -10px 0px 0px -10px;
+}
+
+#about {
+	width: 75%;
+	margin: auto;
+	padding: 20px;
+}
+
+#start {
+	margin: auto;
+}
+
+#map {
+	width: 600px;
+	height: 400px;
+}
+
+form p {
+	width: 50%;
+ 	margin: 20px; 
+}
+
+form input {
+ 	width: 75%;
+ 	height: 20px;
+ 	border-radius: 20px;
+ 	padding: 5px;
+}
+
+form {
+ 	margin: auto;
+}
+
+#sub {
+ 	background-color: #6dd3ce;
+ 	border-radius: 20px;
+ 	padding: 0px;
+ 	height: 25px;
+}
+
+.form {
+ 	margin: auto;
 }

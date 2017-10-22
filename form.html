@@ -9,6 +9,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
 		<script type="text/javascript" src="./ughhh.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<title>Dubhacks 2017 Project: Form</title>
 	</head>
 
@@ -18,25 +19,27 @@
 			<!-- put a menu button here? !-->
 		</div>
 		
-		<!-- <div id="test">
-			<p>This is a test div please ignore it</p>
-			<form>
-				<p>Name:</p>
-				<input type="text" id="name" name="name">
-				<p>Number:</p>
-				<input type="text" id="num" name="phoneno">
-				<br><br>
-				<button id="sub1">submit</button>
-			</form>
-		</div> -->
-		
 		<div>
-			<form>
-				<p>Child's name:</p>
+			<form id="familyInfo">
+				<p>Family last name:</p>
+				<input type="text" id="surname" name="surname">
+				
+				<p># of family members:</p>
+				<input type="text" id="familySize" name="familySize">
+				
+				<p># of children (in school/daycare):</p>
+				<input type="text" id="children" name="children">
+				
+				<p>Where will your children be evacuated to?</p>
+				<input type="text" id="childEvac" name="childEvac">
+				
+				<p id="contactInfo">Tap to enter contact information for each member:</p>
+
+				<!--<p>Child's name:</p>
 				<input type="text" id="child" name="child1">
 				
 				<p>Emergency contact number:</p>
-				<input type="text" id="emerno" name="emergencynumber">
+				<input type="text" id="emerno" name="emergencynumber">-->
 				
 				
 				<br><br><input type="submit" id="sub" value="Submit">
