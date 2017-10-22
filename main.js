@@ -29,12 +29,7 @@ $(function(){
 		}
 	}
 	
-	
-	/*function getContacts(contactDiv) {
-  var name = $(".name").val();
-  var num = $(".number").val();
-  familyContacts.push({familyMemberName:name, familyMemberNumber:num});
- }*/
+
 
 	$("#sub").click(function() {
 		event.preventDefault();
@@ -51,7 +46,6 @@ $(function(){
 
 		$(".familyContact").each(function() {
 
-			// $(this).append("<p>does this even work</p>");
 			var name = $(".nam").val();
 			var numb = $(".num").val();
 
@@ -69,13 +63,12 @@ $(function(){
 			primaryContactInfo: familyContacts[1]
 		});
 
-		/*window.location.href = "./print.html";*/
 		
 		console.log(lastName);
 		
 		alert("OUR EMERGENCY PLAN: The " + lastName + " family's emergency plan is to pick up their " + howManyKids + " children at " + childEvacPoint + " if disaster should strike. The primary contact for this family is " + familyContacts[1].familyMemberName + ", who can be reached at " + familyContacts[1].familyMemberNumber + ". Our emergency contact is " + contactName + ", who can be reached at " + contactPhone + ".");
 
-
+		window.location.href = "./map.html";
 	});
 
 
