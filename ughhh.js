@@ -11,10 +11,8 @@ $(function(){
   messagingSenderId: "790915466653"
  };
  firebase.initializeApp(config);
- // jQuery methods go here...
 
  var info = firebase.database().ref('info');
-
 
  $("#sub").click(function() {
   event.preventDefault();
@@ -28,9 +26,10 @@ $(function(){
    phone: emergencyNo
   });
   
-  $(this).after("<div>your child's name is " + childName + " and the emergency number to contact is " + emergencyNo);
+  $(this).after("<div>Your child's name is " + childName + ". The emergency number to contact is " + emergencyNo + ".</div>");
   
   $(this).reset();
+  
  });
 
 

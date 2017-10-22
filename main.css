@@ -1,39 +1,53 @@
 body {
-	  font-family: "Arial";
-	  font-size: 15px;
+ font-family: "Arial";
+ font-size: 15px;
 }
 
 .mapElements {
-	display: inline-block;
+ display: inline-block;
 }
 
 #mapContainer > * {
-	vertical-align: top;
+ vertical-align: top;
 }
 
 #header {
-	  background-color: yellowgreen;
-	  color: white;
-	  font-family: "Arial";
-	  font-size: 20px;
-	  width: 150%;
-	  height: 50px;
-	  padding: 10px 20px 10px 20px;
-	  margin: 0px;
+ background-color: yellowgreen;
+ color: white;
+ font-family: "Arial";
+ font-size: 20px;
+ width: 150%;
+ height: 50px;
+ padding: 10px 20px 10px 20px;
+ margin: -10px 0px 0px -10px;
 }
 
 #about {
-	  width: 75%;
-	  margin: auto;
-	  padding: 20px;
+ width: 75%;
+ margin: auto;
+ padding: 20px;
 }
 
 #start {
-	  margin: auto;
+ margin: auto;
 }
 
-
 #map {
-	width: 600px;
-	height: 400px;
+ width: 600px;
+ height: 400px;
+}
+
+form p {
+ width: 50%;
+ margin: auto;
+ font-family: "Lato";
+ font-size: 25px;
+}
+
+form input {
+ margin: auto;
+ width: 50%;
+ height: 20px;
+ border-radius: 20px;
+ padding: 20px;
 }
