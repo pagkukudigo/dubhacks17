@@ -1,0 +1,33 @@
+body {
+	  font-family: "Arial";
+	  font-size: 15px;
+}
+
+#header {
+	  background-color: yellowgreen;
+	  color: white;
+	  font-family: "Arial";
+	  font-size: 20px;
+	  width: 150%;
+	  height: 50px;
+	  padding: 10px 20px 10px 20px;
+	  margin: 0px;
+	  /* margin: -10px 0px 0px -10px; */
+}
+
+#about {
+	  width: 75%;
+	  margin: auto;
+	  padding: 20px;
+}
+
+#start {
+	  margin: auto;
+}
+
+
+#map {
+	position: relative;
+	width: 600px;
+	height: 400px;
+}
