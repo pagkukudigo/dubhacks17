@@ -5,16 +5,16 @@ body {
 
 .locText {
 	font-weight: bold;
- 	font-family: "Lato";
- 	font-size: 25px;
+	font-family: "Lato";
+	font-size: 25px;
 }
 
 .mapElements {
- 	display: inline-block;
+	display: inline-block;
 }
 
 #mapContainer > * {
- 	vertical-align: top;
+	vertical-align: top;
 }
 
 #header {
@@ -78,50 +78,65 @@ body {
 
 form p {
 	width: 50%;
- 	margin: 20px; 
+	margin: 20px; 
 }
 
 form input {
- 	width: 75%;
- 	height: 20px;
- 	border-radius: 20px;
- 	padding: 5px;
+	width: 75%;
+	height: 20px;
+	border-radius: 20px;
+	padding: 5px;
 }
 
 form {
- 	margin: auto;
+	margin: auto;
 }
 
 #sub {
- 	background-color: #6dd3ce;
- 	border-radius: 20px;
- 	padding: 0px;
- 	height: 25px;
+	background-color: #6dd3ce;
+	border-radius: 20px;
+	padding: 0px;
+	height: 25px;
 }
 
 .form {
- margin: auto;
+	margin: -10px;
+	background-image: url(img/form/delfi-de-la-rua-294633.svg);
+	height: 100vh;
+	
 }
 
 #about {
- background-image: url(./img/home/glenn-carstens-peters-190592.svg);
- width: 100vw;
- height: 100vh;
+	background-image: url(./img/home/glenn-carstens-peters-190592.svg);
+	width: 100vw;
+	height: 100vh;
 }
 
 .contain {
- background-color: whitesmoke;
- opacity: 70%;
- width: 50%;
- margin: auto;
- border-radius: 20px;
- padding: 20px;
+	background-color: whitesmoke;
+	opacity: 60%;
+	width: 75%;
+	margin: auto;
+	border-radius: 20px;
+	padding: 20px;
+	font-family: "Lato";
+	font-size: 25px;
+	color: #6dd3ce;
 }
 
 #sig {
- font-size: 12px;
- bottom: 20px;
- right: 20px;
- position: absolute;
- 	margin: auto;
+	font-size: 12px;
+	bottom: 20px;
+	right: 20px;
+	position: absolute;
+	margin: auto;
+}
+
+#familyPlan {
+	background-image: url(img/form/delfi-de-la-rua-294633.svg);	
+	height: 100vh;
+}
+
+.print {
+	display: none;
 }

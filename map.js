@@ -16,10 +16,11 @@ function GetMap() {
         	title: "Current Location"
         });
         map.entities.push(pin);
-				currWaypoint = new Microsoft.Maps.Directions.Waypoint({location: currLoc});
+	    console.log("current location: " + currLoc);
+				currWaypoint = new Microsoft.Maps.Directions.Waypoint({location: currLoc, index:1});
 				//dirManager.addWaypoint(new Microsoft.Maps.Directions.Waypoint({location: currLoc}))
 				dirManager.addWaypoint(currWaypoint);
-				console.log(currWaypoint);
+				console.log("current waypoint: " + currWaypoint);
         //Center the map on the user's location.
         map.setView({ center: currLoc, zoom: 12 });
     });

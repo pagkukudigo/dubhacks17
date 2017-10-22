@@ -1,5 +1,5 @@
 #intro {
-	background-image: url("./img/home/glenn-carstens-peters-190592.svg");
+	background-image: url(./img/home/glenn-carstens-peters-190592.svg);
 	font-family: "Lato";
 	opacity: 70%;
 }
@@ -67,4 +67,12 @@
 	position: absolute;
 	left: 168px;
 	top: 635px;
+}
+
+#abt {
+	position: absolute;
+	left: 20px;
+	bottom: -800px;
+	font-family: "Lato";
+	color: white;
 }
