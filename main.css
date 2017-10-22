@@ -1,6 +1,6 @@
 body {
- font-family: "Arial";
- font-size: 15px;
+ font-family: "Lato";
+ font-size: 25px;
 }
 
 .mapElements {
@@ -39,15 +39,27 @@ body {
 
 form p {
  width: 50%;
- margin: auto;
- font-family: "Lato";
- font-size: 25px;
+ margin: 20px; 
 }
 
 form input {
- margin: auto;
- width: 50%;
+ width: 75%;
  height: 20px;
  border-radius: 20px;
- padding: 10px;
+ padding: 5px;
+}
+
+form {
+ margin: auto;
+}
+
+#sub {
+ background-color: #6dd3ce;
+ border-radius: 20px;
+ padding: 0px;
+ height: 25px;
+}
+
+.form {
+ margin: auto;
 }
