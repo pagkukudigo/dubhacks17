@@ -1,6 +1,10 @@
 body {
-	  font-family: "Arial";
-	  font-size: 15px;
+	font-family: "Arial";
+	font-size: 15px;
+}
+
+.locText {
+	font-weight: bold;
 }
 
 .mapElements {
@@ -12,28 +16,37 @@ body {
 }
 
 #header {
-	  background-color: yellowgreen;
-	  color: white;
-	  font-family: "Arial";
-	  font-size: 20px;
-	  width: 150%;
-	  height: 50px;
-	  padding: 10px 20px 10px 20px;
-	  margin: 0px;
+	background-color: yellowgreen;
+	color: white;
+	font-family: "Arial";
+	font-size: 20px;
+	width: 150%;
+	height: 50px;
+	padding: 10px 20px;
+	margin: 0px;
 }
 
 #about {
-	  width: 75%;
-	  margin: auto;
-	  padding: 20px;
+	width: 75%;
+	margin: auto;
+	padding: 20px;
 }
 
 #start {
-	  margin: auto;
+	margin: auto;
 }
 
+#locTable {
+	width: 100%;
+	border-spacing: 20px 50px;
+	padding: 10px 20px;
+}
 
 #map {
 	width: 600px;
 	height: 400px;
+}
+
+#spanningButton {
+	text-align: center;
 }
