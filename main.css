@@ -3,8 +3,13 @@ body {
 	font-size: 15px;
 }
 
+.mapElements {
+	display: inline-block;
+}
 
-
+#mapContainer > * {
+	vertical-align: top;
+}
 
 #header {
 	background-color: yellowgreen;
@@ -18,7 +23,6 @@ body {
 }
 
 #map {
-	position: relative;
 	width: 600px;
 	height: 400px;'
 }
