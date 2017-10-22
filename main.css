@@ -63,3 +63,25 @@ form {
 .form {
  margin: auto;
 }
+
+#about {
+ background-image: url(./img/home/glenn-carstens-peters-190592.svg);
+ width: 100vw;
+ height: 100vh;
+}
+
+.contain {
+ background-color: whitesmoke;
+ opacity: 70%;
+ width: 50%;
+ margin: auto;
+ border-radius: 20px;
+ padding: 20px;
+}
+
+#sig {
+ font-size: 12px;
+ bottom: 20px;
+ right: 20px;
+ position: absolute;
+}

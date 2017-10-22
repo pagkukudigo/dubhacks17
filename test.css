@@ -1,0 +1,70 @@
+#intro {
+	background-image: url("./img/home/glenn-carstens-peters-190592.svg");
+	font-family: "Lato";
+	opacity: 70%;
+}
+
+#text {
+	position: absolute;
+	width: 1528px;
+	height: 392px;
+	left: 109px;
+	top: 1077px;
+}
+
+#cross1 {
+	position: absolute;
+	width: 107.4px;
+	height: 441.4px;
+	left: 288px;
+	top: 579px;
+}
+
+#cross2 {
+	position: absolute;
+	width: 441.4px;
+	height: 107.4px;
+	left: 121px;
+	top: 746px;
+}
+
+#arrow {
+	position: absolute;
+	width: 99px;
+	height: 145px;
+	top: 1275px;
+	left: 1700px;
+}
+
+/*#landing {
+	background-image: url("./img/landing/joel-peel-99630e.svg");
+	background-repeat: no-repeat;
+	opacity: 70%;
+	position: absolute;
+	width: 100vw;
+	height: 150vh;
+	left: 0px;
+	top: -362px;
+}*/
+
+#startplanning {
+	position: absolute;
+	width: 1338px;
+	height: 312px;
+	left: 162px;
+	top: 1192px;
+}
+
+#arrow2 {
+	top: 1250px;
+	left: 1350px;
+	position: absolute;
+	width: 58px;
+	height: 86px;
+}
+
+#cross3 {
+	position: absolute;
+	left: 168px;
+	top: 635px;
+}
